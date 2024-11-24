@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="left-section" method="POST" action="https://seu-endpoint-aqui.com/api/registro">
+    <h1>Registrar</h1>
+    <div class="form-group">
+      <label for="username">Usuário</label>
+      <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+    </div>
+    <div class="form-group">
+      <label for="confirm-password">Confirme a Senha</label>
+      <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirme sua senha" required>
+    </div>
+    <button type="submit" class="submit-btn">Entrar</button>
+  </form>
+  <div class="right-section">
+    <img src="/img/designer-13-1.png" alt="Logo">
+  </div>
+</body>
+</html>
